@@ -33,7 +33,7 @@ class CoLocation:
                         point_1 = (df_cat_1[ df_cat_1['ID'] == id_1]['Latitude'].values[0], df_cat_1[ df_cat_1['ID'] == id_1]['Longitude'].values[0])
                         point_2 = (df_cat_2[ df_cat_2['ID'] == id_2]['Latitude'].values[0], df_cat_2[ df_cat_2['ID'] == id_2]['Longitude'].values[0])
                         
-                        distance = hs.haversine(point_1, point_2)   # Distances are calculated using haversine distance
+                        distance = hs.haversine(point_1, point_2)   # Distances are calculated using haversine distance, units in kilometers
                         data = [kecamatan, id_1, cat_1, id_2, cat_2, distance]
                         self.df_distances = self.df_distances.append(pd.Series(data, index=self.df_distances.columns), ignore_index=True)
                         
