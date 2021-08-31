@@ -51,7 +51,7 @@ your_object_name.co_location_result()     # Returning all calculated Participati
 your_object_name.co_location_pruned()     # Returning a filtered Participation Index above 50%
 ```
 
-The returned dataframe after calling the method above is look like below:
+The returned dataframe after calling the method above is looked like below:
 
 Category 1 | Category 2 | PR 1 | PR 2 | PI
 --|--|--|--|--
