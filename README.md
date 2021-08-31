@@ -12,7 +12,7 @@ No same category will be calculated for distance, since this code's objectives i
 # Importing the package
 from co_location_rule import CoLocation
 
-# or you can just directly copy the code and paste into your .py file or jupyter notebook
+# or you can just directly copy the code in co_location_rule.py and paste into your .py file or jupyter notebook
 ```
 
 Your initial data should be a Dataframe. It should be at least containing columns as follows
