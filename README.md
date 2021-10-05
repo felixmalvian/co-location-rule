@@ -1,5 +1,5 @@
 # Co Location Rule
-This is the code to calculate co-location rule. It's not even close to perfect since it just able to calculte for 2 items combinations.
+This is the code to calculate co-location rule. It's not even close to perfect since it just able to calculate for 2 items combinations.
 I made it to help me calculate for my research. Feel free to use this code and I'll be happy if you can contribute too.
 
 ## How the code works
